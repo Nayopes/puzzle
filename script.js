@@ -10,6 +10,9 @@
         a.onmouseout = function () {
             a.style.background = setRandomColor(this);
         }
+          a.touchend = function () {
+            a.style.background = setRandomColor(this);
+        }
     }
 
     document.body.appendChild(mainDiv);
