@@ -26,7 +26,7 @@ function createBox(h, w) {
     div.style.border = "1px solid black";
     div.style.boxSizing = "border-box";
     div.style.background = "white";
-    div.innerHTML = "<img src='n0.png'>";
+    div.innerHTML = "<img src='n10.png'>";
 
     return div;
 }
