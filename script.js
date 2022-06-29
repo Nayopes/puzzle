@@ -10,7 +10,7 @@
         a.onmouseout = function () {
             a.style.background = setRandomColor(this);
         }
-          a.touchend = function () {
+          a.touchmove = function () {
             a.style.background = setRandomColor(this);
         }
     }
